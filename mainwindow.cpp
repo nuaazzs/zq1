@@ -19,6 +19,13 @@ MainWindow::MainWindow(QWidget *parent) :
     lb2->setGeometry(50,200,300,40);
     lb2->show();
     //18.12.21 16:21 add this to branch-test1 from github.com
+
+    QLabel* lb3 = new QLabel(ui->centralWidget);
+    lb3->setText("18.12.21 16:42 new version");
+    lb3->setGeometry(50,230,300,40);
+    lb3->show();
+
+
 }
 
 MainWindow::~MainWindow()
