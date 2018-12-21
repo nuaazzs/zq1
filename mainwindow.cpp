@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
     lb2->setText("18.12.21 16:14 want to create a new branch");
     lb2->setGeometry(50,200,300,40);
     lb2->show();
+    //18.12.21 16:21 add this to branch-test1 from github.com
 }
 
 MainWindow::~MainWindow()
