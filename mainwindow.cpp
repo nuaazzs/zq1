@@ -12,6 +12,8 @@ MainWindow::MainWindow(QWidget *parent) :
     lb1->setText("18.12.21 16:03 add this from qt 1507");
     lb1->setGeometry(50,100,300,40);
     lb1->show();
+
+    //change discard test
 }
 
 MainWindow::~MainWindow()
